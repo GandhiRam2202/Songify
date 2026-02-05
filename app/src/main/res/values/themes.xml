@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Songify" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowBackground">#0E0E0E</item>
+        <item name="android:statusBarColor">#0E0E0E</item>
+
+        <item name="colorPrimary">#0E0E0E</item>
+        <item name="colorSecondary">#FFFFFF</item>
+        <item name="drawerArrowStyle">@style/CustomDrawerArrow</item>
+    </style>
+
+    <style name="Theme.Songify" parent="Base.Theme.Songify" />
+
+    <style name="CustomDrawerArrow" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#FFFFFF</item>
+    </style>
+
+    <style name="SongifyTabLayout" parent="Widget.Material3.TabLayout">
+        <item name="tabIndicatorColor">#9100FF</item>
+        <item name="tabSelectedTextColor">#9200FF</item>
+        <item name="tabTextColor">#BDBDBD</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.CircleImageView" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

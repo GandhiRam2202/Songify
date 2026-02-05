@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_songs"
+            android:icon="@drawable/ic_music_note"
+            android:title="Songs" />
+        <item
+            android:id="@+id/nav_albums"
+            android:icon="@drawable/ic_album"
+            android:title="Albums" />
+        <item
+            android:id="@+id/nav_composers"
+            android:icon="@drawable/ic_composer"
+            android:title="Composers" />
+        <item
+            android:id="@+id/nav_playlist"
+            android:icon="@drawable/ic_playlist"
+            android:title="Playlist" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+</menu>
